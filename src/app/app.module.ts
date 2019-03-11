@@ -31,6 +31,8 @@ import {LoginGuard} from './guard/login.guard';
 import {LogoutGuard} from './guard/logout.guard';
 import { UpdateCvComponent } from './cvTech/update-cv/update-cv.component';
 import { SearchComponent } from './cvTech/search/search.component';
+import { TaskManagerComponent } from './task-manager/task-manager.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -56,13 +58,15 @@ import { SearchComponent } from './cvTech/search/search.component';
     ObsevableComponent,
     HttpComponent,
     UpdateCvComponent,
-    SearchComponent
+    SearchComponent,
+    TaskManagerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    DragDropModule,
     ROUTING
   ],
   providers: [
