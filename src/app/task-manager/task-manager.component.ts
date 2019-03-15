@@ -62,6 +62,7 @@ export class TaskManagerComponent implements OnInit {
     this.noteService.addTodo(todo).subscribe(
       (reponse) => {
         this.ngOnInit();
+        this.hide();
       }
     );
   }

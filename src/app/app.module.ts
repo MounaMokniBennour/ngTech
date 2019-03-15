@@ -33,6 +33,7 @@ import { UpdateCvComponent } from './cvTech/update-cv/update-cv.component';
 import { SearchComponent } from './cvTech/search/search.component';
 import { TaskManagerComponent } from './task-manager/task-manager.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { AddComponent } from './students/add/add.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     HttpComponent,
     UpdateCvComponent,
     SearchComponent,
-    TaskManagerComponent
+    TaskManagerComponent,
+    AddComponent
   ],
   imports: [
     BrowserModule,

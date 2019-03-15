@@ -1,0 +1,31 @@
+<button (click)="addStudentItem()" class="btn btn-primary">  Add Student</button>
+<div class="row">
+<div class="col-md-3 col-sm-3">
+  <label>Name</label>
+</div>
+<div class="col-md-3 col-sm-3">
+  <label>Firstname</label>
+</div>
+<div class="col-md-3 col-sm-3">
+  <label>Note</label>
+</div>
+</div>
+<div class="row" *ngFor="let student of students">
+  <div class="col-md-3 col-sm-3">
+    <input type="text" class="form-control" [(ngModel)]="student.name">
+  </div>
+  <div class="col-md-3 col-sm-3">
+    <input type="text" class="form-control" [(ngModel)]="student.firstname">
+  </div>
+  <div class="col-md-2 col-sm-2">
+    <input (blur)="addStudentItem()" type="number" class="form-control" [(ngModel)]="student.note">
+  </div>
+  <div class="col-md-1 col-sm-1">
+    <button class="btn btn-danger" (click)="deleteStudent(student)">
+      <i class="fa fa-trash" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+<button (click)="saveStudents()" class="btn btn-success">
+  Save Students marks
+</button>

@@ -9,6 +9,7 @@ import {LoginGuard} from './guard/login.guard';
 import {LogoutGuard} from './guard/logout.guard';
 import {UpdateCvComponent} from './cvTech/update-cv/update-cv.component';
 import {TaskManagerComponent} from './task-manager/task-manager.component';
+import {AddComponent} from './students/add/add.component';
 
 
 const APP_ROUTING: Routes = [
@@ -21,6 +22,7 @@ const APP_ROUTING: Routes = [
   {path: '', component: CvComponent},
   {path: 'color/:default', component: ColorComponent},
   {path: 'taskManager', component: TaskManagerComponent},
+  {path: 'addStudents', component: AddComponent},
   {path: 'login', component: LoginComponent, canActivate: [LogoutGuard]},
   {path: '**', component: ErrorComponent}
 ];

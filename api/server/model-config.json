@@ -41,5 +41,9 @@
   "personne": {
     "dataSource": "AymenDb",
     "public": true
+  },
+  "Student": {
+    "dataSource": "AymenDb",
+    "public": true
   }
 }
