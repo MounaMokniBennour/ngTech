@@ -34,6 +34,8 @@ import { SearchComponent } from './cvTech/search/search.component';
 import { TaskManagerComponent } from './task-manager/task-manager.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { AddComponent } from './students/add/add.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -69,7 +71,8 @@ import { AddComponent } from './students/add/add.component';
     FormsModule,
     HttpClientModule,
     DragDropModule,
-    ROUTING
+    ROUTING,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     LoginInterceptorProvider,
