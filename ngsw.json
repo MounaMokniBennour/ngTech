@@ -1,0 +1,108 @@
+{
+  "configVersion": 1,
+  "timestamp": 1554373818722,
+  "index": "https://aymensellaouti.github.io/ngTech/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://aymensellaouti.github.io/ngTech/es2015-polyfills.4a4cfea0ce682043f4e9.js",
+        "https://aymensellaouti.github.io/ngTech/favicon.ico",
+        "https://aymensellaouti.github.io/ngTech/index.html",
+        "https://aymensellaouti.github.io/ngTech/main.80f80a9291014067dff2.js",
+        "https://aymensellaouti.github.io/ngTech/polyfills.407a467dedb63cfdd103.js",
+        "https://aymensellaouti.github.io/ngTech/runtime.a5dd35324ddfd942bef1.js",
+        "https://aymensellaouti.github.io/ngTech/styles.09251a0e94e7b16bf0b7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://aymensellaouti.github.io/ngTech/assets/css/rotating-card.css",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-128x128.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-144x144.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-152x152.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-192x192.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-384x384.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-512x512.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-72x72.png",
+        "https://aymensellaouti.github.io/ngTech/assets/icons/icon-96x96.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/404.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/as.jpg",
+        "https://aymensellaouti.github.io/ngTech/assets/images/cv.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_profile.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_profile2.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_profile3.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb.jpg",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb2.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb3.png",
+        "https://aymensellaouti.github.io/ngTech/assets/images/zizou.jpeg",
+        "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://aymensellaouti.github.io/ngTech/assets/css/rotating-card.css": "cee9339a3f886f28170b1a941bbe5c7f23b3a79b",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://aymensellaouti.github.io/ngTech/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://aymensellaouti.github.io/ngTech/assets/images/404.png": "27ca087c5fb7ad199d04435de0be9f068989dc3f",
+    "https://aymensellaouti.github.io/ngTech/assets/images/as.jpg": "fd4227c398042b73c8ca84df755824fbb1a3baff",
+    "https://aymensellaouti.github.io/ngTech/assets/images/cv.png": "417d3bde1e8f172d82cb7f3d6feb4b2d1ecbed6a",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_profile.png": "b30414d614f9b735a7232caebb69867ebfc5503e",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_profile2.png": "2408851706a98bac6a73ea7c8509bfc41f6ec90d",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_profile3.png": "4c19034d68811fa2d84289bc75f7b7fca39ae39c",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb.jpg": "7d492d6134a7d0cf3de07f5dfad49c0d3fcd2886",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb.png": "853764dcf8a8955af43b6b2e3d22155f34e7d1e5",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb2.png": "cec9f69aa3e5c38cee1444e9acf0c9ee7373235b",
+    "https://aymensellaouti.github.io/ngTech/assets/images/rotating_card_thumb3.png": "74d51b80c1f3cf44b20c6ef610b31b92460d9df9",
+    "https://aymensellaouti.github.io/ngTech/assets/images/zizou.jpeg": "8a3623fb61988d58a9a8a898254a32497a3068a7",
+    "https://aymensellaouti.github.io/ngTech/es2015-polyfills.4a4cfea0ce682043f4e9.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "https://aymensellaouti.github.io/ngTech/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "https://aymensellaouti.github.io/ngTech/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "https://aymensellaouti.github.io/ngTech/index.html": "0957e091bce07f0d59541905cd3c1bddb44386b8",
+    "https://aymensellaouti.github.io/ngTech/main.80f80a9291014067dff2.js": "594373d2a2491e42a7b1383b61aae9eaa5a405b7",
+    "https://aymensellaouti.github.io/ngTech/polyfills.407a467dedb63cfdd103.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://aymensellaouti.github.io/ngTech/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://aymensellaouti.github.io/ngTech/styles.09251a0e94e7b16bf0b7.css": "6c39bcdf7ceeaa4312f4f029f23d3ced712ecdde"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
