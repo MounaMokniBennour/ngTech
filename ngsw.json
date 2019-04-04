@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554373818722,
+  "timestamp": 1554394511080,
   "index": "https://aymensellaouti.github.io/ngTech/index.html",
   "assetGroups": [
     {
@@ -52,7 +52,19 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "apiPersonne",
+      "patterns": [
+        "http:\\/\\/localhost:3000\\/api\\/personnes"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 172800000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "https://aymensellaouti.github.io/ngTech/assets/css/rotating-card.css": "cee9339a3f886f28170b1a941bbe5c7f23b3a79b",
     "https://aymensellaouti.github.io/ngTech/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
